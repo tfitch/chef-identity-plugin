@@ -35,7 +35,7 @@ THE SOFTWARE.
             <f:textbox field="idName" value="${identity.idName}"/>
           </f:entry>
           <f:entry title="${%user.pem key}" description="${%Will write this to the .chef directory as user.pem file.}">
-            <f:textarea field="pemKey" value="${identity.pemKey}"/>
+            <f:secretTextarea field="pemKey" value="${identity.pemKey}"/>
           </f:entry>
           <f:entry title="${%knife.rb file}" description="${%MUST HAVE THE LINE &lt;code style='color:red'&gt;client key  './user.pem'&lt;/code&gt;}">
             <f:textarea field="knifeRb" value="${identity.knifeRb}"/>

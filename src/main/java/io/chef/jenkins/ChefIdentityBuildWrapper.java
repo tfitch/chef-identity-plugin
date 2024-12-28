@@ -67,7 +67,7 @@ public class ChefIdentityBuildWrapper extends SimpleBuildWrapper {
 	}
 
 	/**
-	 * We'll use this from the <tt>config.jelly</tt>.
+	 * We'll use this from the <code>config.jelly</code>.
 	 */
 	public String getJobIdentity() {
 		return jobIdentity;
@@ -126,7 +126,7 @@ public class ChefIdentityBuildWrapper extends SimpleBuildWrapper {
      * The class is marked as public so that it can be accessed from views.
      *
      * <p>
-     * See <tt>src/main/resources/hudson/plugins/hello_world/ChefIdentityBuilder/*.jelly</tt>
+     * See <code>src/main/resources/hudson/plugins/hello_world/ChefIdentityBuilder/*.jelly</code>
 	 * for the actual HTML fragment for the configuration screen.
 	 */
 	@Extension // This indicates to Jenkins that this is an implementation of an extension point.
@@ -136,7 +136,7 @@ public class ChefIdentityBuildWrapper extends SimpleBuildWrapper {
 		 * simply store it in a field and call save().
 		 *
 		 * <p>
-		 * If you don't want fields to be persisted, use <tt>transient</tt>.
+		 * If you don't want fields to be persisted, use <code>transient</code>.
 		 */
 		private List<ChefIdentity> chefIdentities;
 
